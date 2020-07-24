@@ -23,7 +23,7 @@ public class Check_Network_Get_IPs {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        ArrayList<InetAddress> devices = getConnectedDevices("192.168.1.2");
+        ArrayList<InetAddress> devices = getConnectedDevices("192.168.1.4");
 
         System.out.println("\nDevices");
 //        System.out.println(devices);
